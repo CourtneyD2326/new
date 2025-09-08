@@ -1,4 +1,4 @@
-from appc import app
+from my_package.appc import appc
 
 def test_add():
-    assert app.add(1,1) == 2
+    assert appc.add(1,1) == 2
